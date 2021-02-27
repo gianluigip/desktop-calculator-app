@@ -1,12 +1,16 @@
 package com.gianluigip.calculator
 
 import androidx.compose.desktop.Window
-import androidx.compose.material.Text
+import androidx.compose.material.MaterialTheme
 import androidx.compose.ui.unit.IntSize
+import com.gianluigip.calculator.view.CalculatorLayout
+import com.gianluigip.calculator.view.lightTheme
 
 fun main() = Window(
     title = "Calculator",
-    size = IntSize(500, 500)
+    size = IntSize(400, 500)
 ) {
-    Text("Hello, World!")
+    MaterialTheme(colors = lightTheme) {
+        CalculatorLayout()
+    }
 }
