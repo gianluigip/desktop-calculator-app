@@ -1,4 +1,5 @@
-# desktop-calculator-app
+# Desktop Calculator App
+
 Simple desktop app to try Compose for Desktop and Kotlin
 
 ## Run
